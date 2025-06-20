@@ -40,7 +40,6 @@ class AnimalFactory {
     }
 }
 
-
 class CatFactory extends AnimalFactory {
     createAnimal() {
         return new Cat()
